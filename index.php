@@ -9,14 +9,14 @@ include "Navbar.php";
   <meta charset="utf-8">
   <title></title>
   <link rel="stylesheet" href="Styles/Estilos.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <style type="text/css">
   body {
     background-image: url(Imagenes/Fondo.jpeg)
   }
 </style>
+
 <body>
 
   <div class="login-box">
@@ -29,14 +29,12 @@ include "Navbar.php";
       <div class="input-group mb-3">
         <div class="input-group-prepend">
         </div>
-        <input type="text" class="form-control" placeholder="Usuario" aria-label="Username"
-          aria-describedby="basic-addon1">
+        <input type="text" class="form-control" placeholder="Usuario" aria-label="Username" aria-describedby="basic-addon1">
       </div>
       <div class="input-group mb-3">
         <div class="input-group-prepend">
         </div>
-        <input type="text" class="form-control" placeholder="Contraseña" aria-label="Username"
-          aria-describedby="basic-addon1">
+        <input type="text" class="form-control" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1">
       </div>
       <input type="submit" value="Iniciar Sesion">
       <a href="#">¿Olvidaste la contraseña?</a><br>
@@ -46,6 +44,5 @@ include "Navbar.php";
 
 </html>
 
-<script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

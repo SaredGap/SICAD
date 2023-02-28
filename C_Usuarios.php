@@ -9,8 +9,7 @@ include "Navbar.php";
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="Styles/Estilos.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <style type="text/css">
     body {
@@ -29,20 +28,16 @@ include "Navbar.php";
                 </div>
             <?php } ?>
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Tipo de Usuario" aria-label="Username" hidden
-                    value="CONFIANZA" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="Tipo de Usuario" aria-label="Username" hidden value="CONFIANZA" aria-describedby="basic-addon1">
             </div>
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Corr" aria-label="Username" hidden value="1"
-                    aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="Corr" aria-label="Username" hidden value="1" aria-describedby="basic-addon1">
             </div>
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Activo" aria-label="Username" hidden value="1"
-                    aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="Activo" aria-label="Username" hidden value="1" aria-describedby="basic-addon1">
             </div>
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Nivel Monitoreo" aria-label="Nombre" hidden
-                    aria-describedby="basic-addon1" value="2">
+                <input type="text" class="form-control" placeholder="Nivel Monitoreo" aria-label="Nombre" hidden aria-describedby="basic-addon1" value="2">
             </div>
             <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Nombre" id="ApellidoP">
@@ -95,12 +90,10 @@ include "Navbar.php";
                 </select>
             </div>
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="UserSicop" aria-label="Nombre"
-                    aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="UserSicop" aria-label="Nombre" aria-describedby="basic-addon1">
             </div>
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Contraseña" aria-label="Nombre"
-                    aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="Contraseña" aria-label="Nombre" aria-describedby="basic-addon1">
             </div>
             <br />
             <center>
@@ -113,6 +106,4 @@ include "Navbar.php";
 
 </html>
 
-<script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
