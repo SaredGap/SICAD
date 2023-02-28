@@ -11,34 +11,22 @@ include "Navbar.php";
     <link rel="stylesheet" href="Styles/Estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
-<style type="text/css">
-    body {
-        background-image: url(Imagenes/.jpeg)
-    }
-</style>
 
 <body>
     <br />
     <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh">
-        <form class="border shadow p-5 rounded" action=".php" method="post" style="width: 1000px; background: #01425E;">
+        <form class="border shadow p-5 rounded" action=".php" id="" method="post" style="width: 800px; background: #01425E;">
             <h1 class="text-center p-3 text-white ">Crear Usuarios</h1>
             <?php if (isset($_GET['error'])) { ?>
                 <div class="alert alert-danger" roles="alert">
                     <?= $_GET['error'] ?>
                 </div>
             <?php } ?>
-            <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Tipo de Usuario" aria-label="Username" hidden value="CONFIANZA" aria-describedby="basic-addon1">
-            </div>
-            <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Corr" aria-label="Username" hidden value="1" aria-describedby="basic-addon1">
-            </div>
-            <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Activo" aria-label="Username" hidden value="1" aria-describedby="basic-addon1">
-            </div>
-            <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Nivel Monitoreo" aria-label="Nombre" hidden aria-describedby="basic-addon1" value="2">
-            </div>
+            
             <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Nombre" id="ApellidoP">
                 <input type="text" class="form-control" placeholder="No.Control" id="ApellidoM">

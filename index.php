@@ -1,6 +1,4 @@
-<?php
-include "Navbar.php";
-?>
+
 
 <!DOCTYPE html>
 <html>
@@ -11,13 +9,9 @@ include "Navbar.php";
   <link rel="stylesheet" href="Styles/Estilos.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
-<style type="text/css">
-  body {
-    background-image: url(Imagenes/Fondo.jpeg)
-  }
-</style>
 
-<body>
+
+<body class="login_fondo">
 
   <div class="login-box">
     <div class="avatar">
