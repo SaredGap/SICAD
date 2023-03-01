@@ -14,6 +14,7 @@ include 'Navbar.php';
 </head>
 <body>
 
+<!-- Nivel 1 puede acceder a los 3 apartados -->
     <div class="contenedor">
 	  	<div class="contenedor-cards">            
 		    <div class="contenedor-card-item">
@@ -57,6 +58,56 @@ include 'Navbar.php';
 		    </div>
 	   	</div>
 	</div>
+    <!-- Nivel 2 puede acceder a los 2 apartados  Revisaar correspondencia y minuario de oficios -->
+    <div class="contenedor">
+	  	<div class="contenedor-cards">            
+		    <div class="contenedor-card-item">
+		      	<div id="MinutarioOf" class="contenedor-card-item-wrapper-MinutarioOf">
+                  <div class="card">
+                        <div class="card-body">
+                            <center>
+                            <h5 class="card-title">MINUTARIO DE OFICIOS</h5>
+                            <p class="card-text">Apartado para revisar minutario de oficios</p>
+                            <a href="#" class="btn btn-primary">Visualizar</a>
+                            </center>
+                        </div>
+                    </div>
+		      	</div>
+		    </div>
+		    <div class="contenedor-card-item">
+		      	<div id="RevisarC" class="contenedor-card-item-wrapper-RevisarC">
+                    <div class="card">
+                        <div class="card-body">
+                            <center>
+                            <h5 class="card-title">REVISAR CORRESPONDENCIA</h5>
+                            <p class="card-text">Apartado para revisar correspondencias</p>
+                            <a href="#" class="btn btn-primary">Visualizar</a>
+                            </center>
+                        </div>
+                    </div>
+		      	</div>
+		    </div>
+	   	</div>
+	</div>
+    <!-- Nivel 3 puede acceder a 1 apartado, minuario de oficios -->
+    <div class="contenedor">
+	  	<div class="contenedor-cards">            
+		    <div class="contenedor-card-item">
+		      	<div id="MinutarioOf" class="contenedor-card-item-wrapper-MinutarioOf">
+                  <div class="card">
+                        <div class="card-body">
+                            <center>
+                            <h5 class="card-title">MINUTARIO DE OFICIOS</h5>
+                            <p class="card-text">Apartado para revisar minutario de oficios</p>
+                            <a href="#" class="btn btn-primary">Visualizar</a>
+                            </center>
+                        </div>
+                    </div>
+		      	</div>
+		    </div>
+	   	</div>
+	</div>
+    
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
