@@ -15,7 +15,7 @@ include "Navbar.php";
 <body>
     <br />
     <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh">
-        <form class="border shadow p-5 rounded" action=".php" id="" method="post" style="width: 800px; background: #01425E;">
+        <form class="border shadow p-5 rounded" action="Funciones/Validacion.php" id="" method="post" style="width: 800px; background: #01425E;">
             <h1 class="text-center p-3 text-white ">Crear Usuarios</h1>
             <?php if (isset($_GET['error'])) { ?>
                 <div class="alert alert-danger" roles="alert">

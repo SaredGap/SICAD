@@ -19,18 +19,18 @@
     </div>
     <h1>IPECOL</h1>
     <br />
-    <form>
+    <form id="form2" name="form2" method="post" action="Validacion.php">
       <div class="input-group mb-3">
         <div class="input-group-prepend">
         </div>
-        <input type="text" class="form-control" placeholder="Usuario" aria-label="Username" aria-describedby="basic-addon1">
+        <input type="text" class="form-control" id="txtUser"  name="txtUser" placeholder="Usuario" aria-label="Username" aria-describedby="basic-addon1">
       </div>
       <div class="input-group mb-3">
         <div class="input-group-prepend">
         </div>
-        <input type="text" class="form-control" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1">
+        <input type="text" class="form-control" id="txtPass" name="txtPass" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1">
       </div>
-      <input type="submit" value="Iniciar Sesion">
+      <input type="submit" value="Iniciar Sesion" class="botonenviar" name="btnloginx">
       <a href="#">¿Olvidaste la contraseña?</a><br>
     </form>
   </div>
