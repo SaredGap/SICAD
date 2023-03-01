@@ -94,23 +94,21 @@ body {
     color: #fff;
   }
 
-  #navbar {
+  .navbar {
     background: #01425E;
+  }
+  
+  .login_fondo{
+    background-image: url(../Imagenes/Fondo.jpeg)
   }
 
   /*  --------------- Estilos del navbar------------------------*/ 
   
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 a:link {
   color: #ffffff;
 }
-nav{
-  background-color: #01425E;
-}
+
 * {
   font-family: arial;
 }
