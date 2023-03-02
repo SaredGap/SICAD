@@ -1,3 +1,15 @@
+<?php
+session_start();
+include('Funciones/Conn.php');
+
+$IDEmpleado = $_SESSION['IDEmpleado'];
+$NivelMinutario = $_SESSION['NivelMinutario'];
+$Nombre = $_SESSION['Nombre'];
+$ApellidoP = $_SESSION['ApellidoP'];
+
+?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
