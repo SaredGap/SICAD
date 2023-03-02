@@ -17,7 +17,7 @@ $mostrar	= mysqli_fetch_array($queryusuario);
 if (($nr == 1))
 	{ 
 		
-		header("Location: Nivel1.php");
+		header("Location: Principal.php");
 	}
 else
 	{
