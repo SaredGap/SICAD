@@ -1,6 +1,6 @@
 <?php
 include 'Navbar.php';
-include('Funciones/Conn.php');
+
 
 ?>
 
